@@ -3,20 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando CSS-->
     <link rel="stylesheet" href="assets/Css/style.css">
+
+    <!--Normalize CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" int
     egrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Import das fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>Pokedex</title>
+
+
 </head>
 <body>
-    <h1>Teste do site</h1>
-    <p>Site feito em aulas da DIO  </p>
+    <section class="conteudo">
+        <h1>Pokedex</h1>
+        <ol class="pokemons">
+            <li class="pokemon">
+                <span class="numero">#001</span>
+                <span class="nome">Bulbasaur</span>
+                
+                <div class="caracteristicas">
+                    <ol class="tipos">
+                        <li class="tipo">Grama</li>
+                        <li class="tipo">Venenoso</li>
+                    </ol>
 
-    <button id="btn_teste" type="button">Botão</button>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+                </div>
+            </li>
+            
+        </ol>
 
+    </section>
+
+
+
+    <!--Import do javascript-->
     <script src="assets/Js/script.js"></script>
 </body>
 </html>
