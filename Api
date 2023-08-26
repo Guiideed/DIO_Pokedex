@@ -1,0 +1,7 @@
+Requisição HTTP
+Request Method: GET - buscar / POST - inserir / PUT - atualizar  / DELETE - remove
+
+Passagem de parametros para API:
+URL : https://pokeapi.co/api/v2/pokemon?type=grass&name=1
+
+URL : https://pokeapi.co/api/v2/pokemon?offset=1&limit=9
