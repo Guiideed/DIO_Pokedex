@@ -2,6 +2,24 @@ Requisição HTTP
 Request Method: GET - buscar / POST - inserir / PUT - atualizar  / DELETE - remove
 
 Passagem de parametros para API:
+Path params
 URL : https://pokeapi.co/api/v2/pokemon?type=grass&name=1
 
+
+Query String 
 URL : https://pokeapi.co/api/v2/pokemon?offset=1&limit=9
+
+
+Header:
+Configurações da requisição
+    content-type:application/json
+
+
+Body-- faz sentido no post e put 
+{
+    "nome":"NovoPoquemon"
+}
+
+
+a requisição é feita por URL,request method, header
+a resposta pode ser o status code,response header e response body
